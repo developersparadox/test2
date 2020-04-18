@@ -17,491 +17,568 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </head>
     <body>
-      <div class="table-responsive">
 
-        <table class="table table-bordered table-hover">
-          <thead>
-            <tr role="row"><th width="100" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Country,Other: activate to sort column ascending" style="width: 100px;">Country,<br>Other</th>
-               <th width="20" class="sorting_desc" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalCases: activate to sort column ascending" style="width: 47px;" aria-sort="descending">Total<br>Cases</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="NewCases: activate to sort column ascending" style="width: 42px;">New<br>Cases</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalDeaths: activate to sort column ascending" style="width: 47px;">Total<br>Deaths</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="NewDeaths: activate to sort column ascending" style="width: 47px;">New<br>Deaths</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalRecovered: activate to sort column ascending" style="width: 72px;">Total<br>Recovered</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="ActiveCases: activate to sort column ascending" style="width: 47px;">Active<br>Cases</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Serious,Critical: activate to sort column ascending" style="width: 56px;">Serious,<br>Critical</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Tot&amp;nbsp;Cases/1M pop: activate to sort column ascending" style="width: 70px;">Tot&nbsp;Cases/<br>1M pop</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Deaths/1M pop: activate to sort column ascending" style="width: 51px;">Deaths/<br>1M pop</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalTests: activate to sort column ascending" style="width: 47px;">Total<br>Tests</th>
-                   <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Tests/1M pop: activate to sort column ascending" style="width: 49px;">Tests/<br><nobr>1M pop</nobr></th>
-               <th style="display: none; width: 0px;" width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Continent: activate to sort column ascending">Continent</th></tr>
-           </thead>
-           <tbody>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">India</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Maharastra</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Dehli</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Tamil Nadu</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Rajasthan</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Madhya pradesh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Gujrat</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Uttar Pradesh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Telangana</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Andhra Pradesh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Kerla</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Karnatak</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Jammu and Kashmir</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">West Bengal</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Haryana</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Punjab</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Bihar</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Orrisa</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Uttrakhand</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Assam</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Himachal Pradesh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Chattisgarh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Jharkhand</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Chandigarh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Ladakh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Andaman and Nicobar<br>Islands</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Puducherry</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Meghalaya</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Goa</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Manipur</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Tripura</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Arunachal Pradesh</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-            <tr class="total_row_world odd" role="row">
-              <td style="text-align:left;">Mizoram</td>
-              <td class="sorting_1">2,107,450</td>
-              <td>+25,078</td> 
-              <td>136,990</td>
-              <td>+2,430</td>
-              <td>526,337</td>
-              <td>1,444,123</td>
-              <td>51,110</td>
-              <td>270</td>
-              <td>17.6</td>
-              <td></td>
-              <td></td>          
-            </tr>
-          </tbody>
-        </table>
+      <div class="card">
+        <div class="card-header">
+          Quote
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <div class="table-responsive">
 
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <tr role="row"><th width="100" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Country,Other: activate to sort column ascending" style="width: 100px;">Country,<br>Other</th>
+                     <th width="20" class="sorting_desc" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalCases: activate to sort column ascending" style="width: 47px;" aria-sort="descending">Total<br>Cases</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="NewCases: activate to sort column ascending" style="width: 42px;">New<br>Cases</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalDeaths: activate to sort column ascending" style="width: 47px;">Total<br>Deaths</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="NewDeaths: activate to sort column ascending" style="width: 47px;">New<br>Deaths</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalRecovered: activate to sort column ascending" style="width: 72px;">Total<br>Recovered</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="ActiveCases: activate to sort column ascending" style="width: 47px;">Active<br>Cases</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Serious,Critical: activate to sort column ascending" style="width: 56px;">Serious,<br>Critical</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Tot&amp;nbsp;Cases/1M pop: activate to sort column ascending" style="width: 70px;">Tot&nbsp;Cases/<br>1M pop</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Deaths/1M pop: activate to sort column ascending" style="width: 51px;">Deaths/<br>1M pop</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="TotalTests: activate to sort column ascending" style="width: 47px;">Total<br>Tests</th>
+                         <th width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Tests/1M pop: activate to sort column ascending" style="width: 49px;">Tests/<br><nobr>1M pop</nobr></th>
+                     <th style="display: none; width: 0px;" width="30" class="sorting" tabindex="0" aria-controls="main_table_countries_today" rowspan="1" colspan="1" aria-label="Continent: activate to sort column ascending">Continent</th></tr>
+                 </thead>
+                 <tbody>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">India</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Maharastra</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Dehli</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Tamil Nadu</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Rajasthan</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Madhya pradesh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Gujrat</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Uttar Pradesh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Telangana</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Andhra Pradesh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Kerla</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Karnatak</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Jammu and Kashmir</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">West Bengal</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Haryana</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Punjab</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Bihar</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Orrisa</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Uttrakhand</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Assam</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Himachal Pradesh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Chattisgarh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Jharkhand</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Chandigarh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Ladakh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Andaman and Nicobar<br>Islands</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Puducherry</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Meghalaya</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Goa</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Manipur</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Tripura</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Arunachal Pradesh</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                  <tr class="total_row_world odd" role="row">
+                    <td style="text-align:left;">Mizoram</td>
+                    <td class="sorting_1">2,107,450</td>
+                    <td>+25,078</td> 
+                    <td>136,990</td>
+                    <td>+2,430</td>
+                    <td>526,337</td>
+                    <td>1,444,123</td>
+                    <td>51,110</td>
+                    <td>270</td>
+                    <td>17.6</td>
+                    <td></td>
+                    <td></td>          
+                  </tr>
+                </tbody>
+              </table>
+      
+            </div>
+          </blockquote>
+        </div>
       </div>
+
+      <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#one">one</a>
+              <a class="dropdown-item" href="#two">two</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#three">three</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="fat">@fat</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+        <h4 id="mdo">@mdo</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+        <h4 id="one">one</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+        <h4 id="two">two</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+        <h4 id="three">three</h4>
+        <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+      </div>
+
+      <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat">@fat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">@mdo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#one">one</a>
+              <a class="dropdown-item" href="#two">two</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#three">three</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="fat">@fat</h4>
+        <p>...</p>
+        <h4 id="mdo">@mdo</h4>
+        <p>...</p>
+        <h4 id="one">one</h4>
+        <p>...</p>
+        <h4 id="two">two</h4>
+        <p>...</p>
+        <h4 id="three">three</h4>
+        <p>...</p>
+      </div>
+     
       
     </body>
 </html>
